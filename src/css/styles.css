@@ -1,0 +1,32 @@
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 200px; /* Set a small width */
+  height: 200px;
+  object-fit: contain;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+body {
+  text-align: center;
+  background-color: rgb(207, 235, 240);
+}
+h1 {
+  font-family: 'Ultra', serif;
+  font-size: 60px;
+}
+h4 {
+  text-align: left;
+}
+#searchTerm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  background-color: white;
+  padding-top: 50px;
+  padding: 50px;
+  padding-bottom: 460px;
+}

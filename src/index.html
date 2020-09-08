@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
   <title>Awesome Giphy Searcher</title>
 </head>
 <body>
   <div class="container">
-    <h1>Search for some awesome gifs</h1>
-    <label for="searchTerm">Enter a keyword:</label>
-    <input id="searchTerm" type="text">
-    <button class="btn-success" id="searchSubmitBtn">Get Gifs!</button>
+    <h1>GIFFinder</h1>
+    <h4>Trending</h4>
+    <div class="trending"></div>
+    <div id="searchBar">
+      <label for="searchTerm">Enter a keyword:</label>
+      <input id="searchTerm" type="text">
+      <button class="btn-success" id="searchSubmitBtn">Get Gifs!</button>
+      <button class="btn-info" id="genRandomBtn">Show a Random Gif</button>
+    </div>
     <div class="showGifs">
     </div>
+    <div class="upload-form">
+      <form method="post" action="" enctype="multipart/form-data" id="myform"> 
+        <div > 
+          <input type="file" id="file" name="file" /> 
+          <input type="button" class="button" value="Upload" id="but_upload"> 
+        </div> 
+      </form>
+  <progress></progress>
   </div>
 </body>
 </html>
