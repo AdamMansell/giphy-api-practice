@@ -16,7 +16,7 @@
     ]
   },
   "keywords": [],
-  "author": "",
+  "author": "Janet Karpenske, Brian Harvey, Adam Mansell",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
